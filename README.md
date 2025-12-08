@@ -1,6 +1,6 @@
 # Claude Skills for Vercel
 
-A collection of [Claude Code](https://claude.com/claude-code) skills for working with Vercel deployments.
+A collection of skills for [Claude.ai](https://claude.ai) and [Claude Code](https://claude.com/claude-code) for working with Vercel deployments.
 
 ## Available Skills
 
@@ -37,17 +37,23 @@ Claim URL:   https://vercel.com/claim-deployment?code=...
 
 ## Installation
 
+### Claude Code
+
 Copy the desired skill folder to your Claude Code skills directory:
 
 ```bash
 cp -r skills/vercel-deploy ~/.claude/skills/
 ```
 
-That's it. No CLI installation or authentication needed.
+### claude.ai
+
+Add the skill to your project knowledge or paste the contents of `SKILL.md` into your conversation.
+
+No CLI installation or authentication needed.
 
 ## Usage
 
-Skills are automatically available to Claude Code once installed. Simply ask Claude to deploy:
+Skills are automatically available once installed. Simply ask Claude to deploy:
 
 ```
 Deploy my app
@@ -62,7 +68,7 @@ Claude will package your project, deploy it, and return both URLs.
 ## Skill Structure
 
 Each skill contains:
-- `SKILL.md` - Instructions for Claude Code
+- `SKILL.md` - Instructions for Claude
 - `scripts/` - Helper scripts for automation
 
 ## License
